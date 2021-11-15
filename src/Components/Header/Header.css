@@ -1,0 +1,21 @@
+.nav_link{
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: DarkGray;
+    
+}
+
+.nav_link:hover{
+    color: FloralWhite;
+    text-decoration: none;
+}
+
+.nav_link_active{
+    color: FloralWhite;
+}
+
+.title{
+    font-size: 2rem;
+    color:lightgray
+}

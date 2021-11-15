@@ -1,0 +1,73 @@
+.item-page {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.image-box {
+    width: 250px;
+}
+
+.item-image {
+    width: 250px;
+    height: auto;
+}
+
+.actor-name {
+    margin-top: 20px;
+    width: 250px;
+    color: #333333;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.info {
+    color: grey;
+    font-size: 1.1em;
+}
+
+.lower {
+    margin-top: 40px;
+}
+
+.rating {
+    font-size: 2rem;
+    color: slategray;
+    padding-right: 300px;
+}
+
+.item-action-button {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.comments {
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    width: 60%;
+    background-color: gainsboro;
+    padding-bottom: 50px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.comment {
+    margin: 0 auto;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.actor {
+    margin-right: 10px;
+    color: black;
+}
