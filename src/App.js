@@ -8,6 +8,7 @@ import MovieAdd from "./Pages/MovieAdd/MovieAdd";
 import Actor from "./Pages/ActorPage/Actor";
 import ActorAdd from "./Pages/ActorAdd/ActorAdd";
 import ActorUpdate from "./Pages/ActorUpdate/ActorUpdate";
+import Trailers from "./Pages/TrailersPage/TrailersPage";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Routes>Actor
           <Route exect path="/" element={<Home />} />
+          <Route exect path="/trailers" element={<Trailers />}></Route>
           <Route path="/movies/:id" element={<Movie />}></Route>
           <Route path="/movies/:id/update" element={<MovieUpdate />}></Route>
           <Route path="/movies/add" element={<MovieAdd />}></Route>

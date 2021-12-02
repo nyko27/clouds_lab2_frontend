@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: `${process.env.REACT_APP_LOCAL_SERVER_NAME}`,
+    baseURL: `${process.env.REACT_APP_API_URL}`,
     headers: {
         "Access-Control-Allow-Origin": "*",
         "Content-Type": "application/json",
@@ -52,6 +52,9 @@ export async function deleteActorById(id) {
     return (await instance.delete(`/actors/${id}/remove`)).data;
 }
 
+export async function getTrailers() {
+    return (await instance.get(`/trailers`)).data;
+}
 
 
 export async function delay(ms) {

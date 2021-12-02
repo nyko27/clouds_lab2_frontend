@@ -12,7 +12,12 @@ export default function Header() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav style={{ marginLeft: "7%" }} className="mr-auto">
           <h1 className="title">Awesome Movies</h1>
-          <NavLink to="/movies/add" className='nav_link' style={{ marginTop: "8px", marginLeft: "550px" }}  exact={true}>
+
+          <NavLink to="/trailers" className='nav_link' style={{ marginTop: "8px", marginLeft: "550px" }} exact={true}>
+            Trailers
+          </NavLink>
+
+          <NavLink to="/movies/add" className='nav_link' style={{ marginTop: "8px" }} exact={true}>
             Add movie
           </NavLink>
         </Nav>
